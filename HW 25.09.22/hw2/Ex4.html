@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        x = parseInt(prompt('Enter val between 1 and 9999 '));
+
+        document.write(`${x} `)
+        if (x <= 9) {
+            document.write(`1 digit`)
+        }
+        else if (x <= 99) {
+            document.write(`2 digit`)
+        }
+        else if (x <= 999) {
+            document.write(`3 digit`)
+        }
+        else if (x <= 9999) {
+            document.write(`4 digit`)
+        }
+
+    </script>
+</body>
+
+</html>
